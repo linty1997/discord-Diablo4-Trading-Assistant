@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "discord-diablo4-trading-assistant"
+version = "0.1.0"
+description = ""
+authors = ["Dylan <40823034+linty1997@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "discord_diablo4_trading_assistant"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.0"
+alembic = "^1.11.1"
+mysqlclient = "^2.2.0"
+py-cord = "^2.4.1"
+pyyaml = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

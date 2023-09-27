@@ -1,0 +1,7 @@
+.env
+.venv
+myAlembic
+bot.log
+trading.yaml
+.idea
+alembic.ini
